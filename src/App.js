@@ -1,7 +1,22 @@
 import React, { useState, useEffect } from 'react';
 import bridge from '@vkontakte/vk-bridge';
-import { View, ScreenSpinner, AdaptivityProvider, AppRoot } from '@vkontakte/vkui';
-import '@vkontakte/vkui/dist/vkui.css';
+import {
+	AdaptivityProvider,
+	ConfigProvider,
+	useAdaptivity,
+	AppRoot,
+	SplitLayout,
+	SplitCol,
+	ViewWidth,
+	View,
+	Panel,
+	PanelHeader,
+	Header,
+	Group,
+	SimpleCell,
+	ScreenSpinner,
+} from "@vkontakte/vkui";
+import "@vkontakte/vkui/dist/vkui.css";;
 
 import Home from './panels/Home';
 import Persik from './panels/Persik';
