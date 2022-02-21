@@ -5,6 +5,8 @@ import {
 	AppRoot,
 	View,
 	ScreenSpinner,
+	PanelHeader,
+	Panel
 } from "@vkontakte/vkui";
 import "@vkontakte/vkui/dist/vkui.css";
 
@@ -37,7 +39,10 @@ const App = () => {
 		<AdaptivityProvider>
 			<AppRoot>
 				<View activePanel={activePanel} popout={popout}>
-
+					ыаврыаврыварывар
+					<Panel id="header">
+						<PanelHeader>Header</PanelHeader>
+					</Panel>
 				</View>
 			</AppRoot>
 		</AdaptivityProvider>
